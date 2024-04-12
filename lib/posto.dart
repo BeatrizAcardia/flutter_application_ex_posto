@@ -25,7 +25,7 @@ class _MyPostoState extends State<MyPosto> {
         padding: EdgeInsets.all(13.5),
         child: Column(children: [
           SizedBox(height: 40,),
-          Text("Álcool ou Gasolina", style: TextStyle(fontSize: 19),),
+          Image.network("https://cdn-icons-png.flaticon.com/512/1986/1986894.png", width: 100,),
           SizedBox(height: 30,),
           TextField(
          controller: controladorTexto,
